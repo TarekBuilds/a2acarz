@@ -5,14 +5,14 @@
   font-family: 'Inter', system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  --color-primary: #202e59;
-  --color-secondary: #26358c;
-  --color-gold: #d9b811;
-  --color-gold-hover: #d9a714;
-  --color-surface: #f8f9ff;
-  --color-text: #202944;
-  --color-muted: #4a5b89;
-  --shadow: 0 28px 70px rgba(32, 46, 89, 0.12);
+  --color-primary: #1b3b70;
+  --color-secondary: #274b8d;
+  --color-gold: #d8a919;
+  --color-gold-hover: #c79913;
+  --color-surface: #f7f9ff;
+  --color-text: #142033;
+  --color-muted: #5b6781;
+  --shadow: 0 24px 60px rgba(17, 24, 39, 0.08);
 }
 
 * {
@@ -27,8 +27,10 @@ body,
 
 body {
   margin: 0;
-  background: #ffffff;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
   color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 img,

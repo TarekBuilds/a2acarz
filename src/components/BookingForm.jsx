@@ -31,7 +31,7 @@ function Field({ label, icon, children }) {
 export default function BookingForm() {
   const t = useTranslation();
   const [form, setForm] = useState({
-    departureCity: 'Agadir',
+    departureCity: 'Casablanca',
     pickupDate: '',
     returnDate: '',
     vehicleType: '',
@@ -81,7 +81,9 @@ export default function BookingForm() {
 
   return (
     <aside id="hero-booking" className={styles.bookingCard}>
-      <h2>{t.formTitle}</h2>
+      <div className={styles.bookingCardHeader}>
+        <h2>{t.formTitle}</h2>
+      </div>
       <form className={styles.bookingForm} onSubmit={handleSubmit}>
         <Field label={t.formDepartureCity} icon={<MapPin size={18} />}>
           <select name="departureCity" value={form.departureCity} onChange={handleChange} required>

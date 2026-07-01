@@ -25,6 +25,11 @@ export default function Hero() {
               {t.heroAgenciesButton}
             </a>
           </div>
+          <div className={styles.heroMeta}>
+            <span>✓ Unlimited mileage</span>
+            <span>✓ 24/7 roadside support</span>
+            <span>✓ Airport pickup</span>
+          </div>
         </div>
         <BookingForm />
       </div>

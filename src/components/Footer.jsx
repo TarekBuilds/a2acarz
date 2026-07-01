@@ -33,11 +33,11 @@ export default function Footer() {
               </li>
               <li>
                 <Mail size={17} />
-                <a href="mailto:contact@aloveracar.com">contact@aloveracar.com</a>
+                <a href="mailto:contact@a2acarz.com">contact@a2acarz.com</a>
               </li>
               <li>
                 <MapPin size={17} />
-                Agadir, Maroc
+                Casablanca, Maroc
               </li>
             </ul>
           </div>
@@ -45,13 +45,13 @@ export default function Footer() {
 
         <div className={styles.footerBottom}>
           <p>
-            &copy; 2026 ALOVERA CAR. {t.footerRights}
+            &copy; 2026 A2A CARZ. {t.footerRights}
           </p>
           <div className={styles.socialLinks}>
-            <a href="#contact" aria-label="Facebook">
+            <a href="#accueil" aria-label="Facebook">
               <Facebook size={17} />
             </a>
-            <a href="#contact" aria-label="Instagram">
+            <a href="#accueil" aria-label="Instagram">
               <Instagram size={17} />
             </a>
             <a href="https://wa.me/212668190570" target="_blank" rel="noreferrer" aria-label="WhatsApp">

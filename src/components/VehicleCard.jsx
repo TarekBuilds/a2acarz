@@ -23,6 +23,7 @@ export default function VehicleCard({ car, labels, dayLabel, bookLabel, onBook }
           <p>
             {car.price} DH <span>{dayLabel}</span>
           </p>
+          <div className={styles.priceBadge}>Best value • Flexible pickup</div>
         </div>
         <dl className={styles.specList}>
           {specRows.map(([key, value]) => (
