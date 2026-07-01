@@ -85,6 +85,7 @@
   display: flex;
   align-items: center;
   gap: 32px;
+  margin-left: auto;
 }
 
 .navLinks a {
